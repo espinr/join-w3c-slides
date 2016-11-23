@@ -3,6 +3,9 @@
 This presentation uses the HTML5-based [shower.js](https://github.com/shower/shower "Shower.JS Library") engine.
 
 ## How to use it
+
+The easiest way: download the full package (green button on the right titled 'clone or download'). Download as a ZIP file and extract its content where you want to deploy the presentation. Change the name of the root folder (e.g., `w3c-slides`).   
+
 This package contains all the basic files needed to perform the presentation. 
 - `lib` -> library
 - `img` -> images
