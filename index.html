@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
 	<title>Join World Wide Web Consortium</title>
 	<meta charset="utf-8">
@@ -25,7 +25,7 @@
 			color:#FFF;
 			text-align:center;
 			font-size:70px;
-			}
+		}
 		#cover p {
 			margin:10px 0 0;
 			text-align:center;
@@ -36,8 +36,11 @@
 		#cover p a {
 			color:#FFF;
 			}
-		#estandares img{
+		#standards img{ 
 			opacity: 0.3;
+		}
+		#members h2, #recommendations h2 {
+			display: none;
 		}
 		#fees table th:nth-child(2), #fees table td:nth-child(2) {
 			text-align: right;
@@ -82,16 +85,16 @@
 		#eventos img {
 			opacity: 0.2;
 		}
-		#involucracion li.observador::before {
+		#involvement li.observador::before {
 			content: "😶";
 		}
-		#involucracion li.activo::before {
+		#involvement li.activo::before {
 			content: "😎";
 		}
-		#involucracion li.pasivo::before {
+		#involvement li.pasivo::before {
 			content: "😐";
 		}
-		#contacto address{
+		#contact address{
 			padding-left: 2em;
 		}
 	</style>	
@@ -127,7 +130,7 @@
       </ul>
 	</section>
 
-	<section class="slide" id="estandares">
+	<section class="slide" id="standards">
 		<h2>What does W3C do?</h2>
 		<p class="xl">Standards</p>
 		<p>+260 <a href="http://www.w3.org/TR/">Technical specifications</a>, guidelines and tools for the Web:</p>
@@ -136,7 +139,8 @@
 		  <strong>Open</strong> standards with perhaps the most <strong>transparent</strong> <a href="http://www.w3.org/Consortium/Patent-Policy/" hreflang="en-us">patent policy</a> on the Internet. </blockquote>
 	</section>
 
-	<section class="slide">
+	<section class="slide" id="recommendations">
+		<h2>Recommendations</h2>
 		<img src="img/recs_cloud.png" alt="Popular standards wordcloud" class="cover">
 	</section>
 
@@ -153,7 +157,8 @@
 		</ul>
 	</section>
 
-	<section class="slide">
+	<section class="slide" id="members">
+		<h2>Members</h2>
 		<img src="img/members_cloud.png" alt="Members wordcloud" class="cover">
 	</section>
 
@@ -221,7 +226,7 @@
 	</section>
 
 
-	<section class="slide" id="involucracion">
+	<section class="slide" id="involvement">
 		<h2>Allocation of resources to working groups</h2>
 		<p>Each member may allocate <strong>unlimited participants to any group</strong></p>
 		<ul>
@@ -253,23 +258,23 @@
 			<th>Fee (€)<sup>*</sup></th>
 		</tr>
 		<tr>
-			<td scope="row">Company with annual gross revenue &gt;= <em>€800m</em></td>
+			<th scope="row">Company with annual gross revenue &gt;= <em>€800m</em></th>
 			<td>68,000</td>
 		</tr>
 		<tr>
-			<td scope="row">Company with annual gross revenue <em>€51m &lt; €800m</em></td>
+			<th scope="row">Company with annual gross revenue <em>€51m &lt; €800m</em></th>
 			<td>59,500 </td>
 		</tr>
 		<tr>
-			<td scope="row">Introductory Industry Membership (limited participation to one <abbr title="Interest Group">IG)</abbr></td>
+			<th scope="row">Introductory Industry Membership (limited participation to one <abbr title="Interest Group">IG)</abbr></th>
 			<td>29,750</td>
 		</tr>
 		<tr>
-			<td scope="row">Rest of organizations, incl. public bodies and <abbr title="Non-governmental organizations">NGOs</abbr></td>
+			<th scope="row">Rest of organizations, incl. public bodies and <abbr title="Non-governmental organizations">NGOs</abbr></th>
 			<td>7,800</td>
 		</tr>
 		<tr>
-			<td scope="row">Enterprises and <abbr title="Non-governmental organizations">NGOs</abbr> <small style="font-size:60%">(&lt;= 10 employees and annual revenue <em>&lt; €2.25m,</em> firsttwo years)</small></td>
+			<th scope="row">Enterprises and <abbr title="Non-governmental organizations">NGOs</abbr> <small style="font-size:60%">(&lt;= 10 employees and annual revenue <em>&lt; €2.25m,</em> firsttwo years)</small></th>
 			<td>1,950</td>
 		</tr>
 		</table>
@@ -277,7 +282,7 @@
 	</section>
 
 
-	<section class="slide" id="contacto">
+	<section class="slide" id="contact">
 		<h2>More Information</h2>
 		<p><strong>Your Name Here</strong> <br> Head of W3C Office</p>
 		<address>
